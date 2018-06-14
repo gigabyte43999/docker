@@ -2,6 +2,6 @@ FROM maven
 
 RUN ls
 
-COPY .
+COPY . /
 
 ENTRYPOINT java -jar mongodb-0.0.1-SNAPSHOT.jar
