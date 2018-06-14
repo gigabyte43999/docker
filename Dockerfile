@@ -1,5 +1,5 @@
 FROM maven
 
-RUN mvn -v
+RUN ls
 
 COPY ./mongodb-0.0.1-SNAPSHOT /mydir
