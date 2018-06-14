@@ -4,4 +4,4 @@ RUN ls
 
 COPY . /mydir
 
-ENTRYPOINT ls
+ENTRYPOINT java -jar mongodb-0.0.1-SNAPSHOT.jar
